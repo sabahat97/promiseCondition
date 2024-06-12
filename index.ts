@@ -9,7 +9,7 @@ let myPromise1 = new Promise((resolve, reject) => {
   });
   
   myPromise1.then((message) => {
-    console.log(message); // Output: Operation successful!
+    console.log(message); 
   }).catch((error) => {
     console.error(error);
   });
